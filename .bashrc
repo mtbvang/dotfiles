@@ -114,3 +114,5 @@ if ! shopt -oq posix; then
 fi
 
 export LC_ALL=C
+
+eval "$(gulp --completion=bash)"
